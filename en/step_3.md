@@ -1,22 +1,71 @@
-## What can you do now?
+<h2 class="c-project-heading--task">Make the snake move</h2>
+--- task ---
+Use a variable to make your snake slither across the screen.
+--- /task ---
 
-If you are following the [PATH NAME](https://projects.raspberrypi.org/en/pathways/PATH-NAME) pathway, you can move on to the [NEXT PROJECT/PATH NAME](https://projects.raspberrypi.org/en/projects/PROJECT-SLUG) project. In this project, you will do DESCRIPTION.
+<h2 class="c-project-heading--explainer">It’s alive!</h2>
 
------- OR ---------
+You’re about to make your snake move across the screen.
 
-Try our [PROJECT/PATH NAME](https://projects.raspberrypi.org/en/collections/PATH-SLUG) project pathway where you will DESCRIPTION.
+We’ll use a variable called `x` to keep track of where the snake's head is.  
+Each time `draw()` runs, we’ll add a little to `x` to move everything to the right.
 
---- print-only --- 
+This is called **animation** — and it works just by changing positions over time!
 
-![ALT TEXT](images/IMAGE-FROM-PROJECT.png)
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 4,11-13
+---
+from p5 import *
+from math import sin
 
---- /print-only ---
+x = 0  # starting position of the snake
 
---- no-print ---
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/STARTER_PROJECT_SLUG" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-</iframe>
+def setup():
+    size(400, 400)
+    background('lightblue')
+    no_stroke()
 
---- /no-print ---
 
-Or, why not try out another [CODING_LANGUAGE](https://projects.raspberrypi.org/en/projects?software%5B%5D=CODING_LANGUAGE) project.
+def draw():
+    global x
+    background('lightblue')
+    fill('green')
+    circle(x, 200, 50)  # head at x
+    circle(x - 35, 200, 40)  # body at x - 35
+
+    x += 2  # increase x by 2
+
+
+run()
+--- /code ---
+</div>
+
+<div class="c-project-output">
+![The head and body of the snake moving to the right](images/step_3.png)
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try changing how fast the snake moves by using a bigger or smaller number in `x += 2`.
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If the snake doesn’t move:<br />
+- Make sure `x = 0` comes **before** your functions<br />
+- Did you use `global x` inside `draw()`?<br />
+- Are you updating `x` with `x += 2`?
+
+</div>

@@ -1,42 +1,62 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Draw the snake's head</h2>
+--- task ---
+Draw a green circle in the middle of the screen to make your snake's head.
+--- /task ---
 
-A brief description - one or two sentences. 
+<h2 class="c-project-heading--explainer">Hello, snake!</h2>
 
---- print-only ---
-![ALT TEXT](images/IMAGE.png)
---- /print-only ---
+In this project, you’ll create a slithering animated snake using Python and p5.  
+We’ll start by drawing a green circle for the snake’s head.
 
---- no-print ---
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 1
+line_highlights: 9-10
+---
+from p5 import *
+from math import sin
 
-Editor embed 
+x = 0  # starting position of the snake
 
---- /no-print ---
 
---- no-print ---
-Video embed
+def setup():
+    size(400, 400)
+    background('lightblue')
+    no_stroke()
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
+def draw():
+    fill('green')
+    circle(200, 200, 50)
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+
+run()
+--- /code ---
 </div>
 
---- /no-print ---
+<div class="c-project-output">
+![A single green circle on a light blue background](images/step_1.png)
+</div>
 
-### You will need:
-- a
-- b
-- c
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Try changing the size of the circle or the colour. What happens if you move it left or right?
+
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+If you don’t see anything:<br />
+- Make sure the `circle()` has **three numbers**: x, y, and size<br />
+- Check that `setup()` and `draw()` are spelled correctly<br />
+- Run your code again after saving
+
+</div>
