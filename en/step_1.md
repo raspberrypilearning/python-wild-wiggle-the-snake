@@ -15,7 +15,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 9-10
+line_highlights: 14, 15
 ---
 from p5 import *
 from math import sin

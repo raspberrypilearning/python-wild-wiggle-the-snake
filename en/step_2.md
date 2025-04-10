@@ -18,8 +18,8 @@ You’ll need to:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 11
+line_number_start: 13
+line_highlights: 16
 ---
 def draw():
     fill('green')
