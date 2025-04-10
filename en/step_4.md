@@ -18,7 +18,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 14-15
+line_highlights: 19-20
 ---
 def draw():
     global x
@@ -27,7 +27,7 @@ def draw():
     circle(x, 200, 50)        # head at x
     circle(x - 35, 200, 40)   # body 1
     circle(x - 65, 200, 35)   # body 2
-    circle(x - 95, 200, 30)   # tail
+    circle(x - 90, 200, 30)   # tail
 
     x += 2  # increase x by 2
 

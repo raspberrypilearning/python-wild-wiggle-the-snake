@@ -21,7 +21,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 14-17
+line_highlights: 18, 21-23
 ---
 def draw():
     global x
