@@ -21,7 +21,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 25-27, 29, 31
+line_highlights: 25-27, 29-31
 ---
     circle(x, 200, 50)               # head at x
     circle(x - 35, 200 + offset, 40) # body 1
