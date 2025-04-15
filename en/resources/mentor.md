@@ -1,4 +1,4 @@
-# Mentor Notes: Wiggly Snake
+# Mentor Notes: Wiggle the snake
 
 ## Project Overview
 
