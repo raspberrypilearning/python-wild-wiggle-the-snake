@@ -10,10 +10,12 @@ last_tested: "2025-04-10"
 steps:
   - title: step_1
   - title: step_2
+    completion:
+      - engaged
   - title: step_3
   - title: step_4
   - title: step_5
   - title: step_6
     completion:
-      - engaged
+      - internal
       - external

@@ -7,7 +7,7 @@ Use a variable to make your snake slither across the screen.
 
 You’re about to make your snake move across the screen.
 
-We’ll use a variable called `x` to keep track of where the snake's head is.  
+Use a variable called `x` to keep track of where the snake's head is.  
 Each time `draw()` runs, we’ll add a little to `x` to move everything to the right.
 
 The `draw()` function runs many times per second. That’s why we draw the background each time — it clears the screen so the snake doesn’t leave a trail.
@@ -49,7 +49,6 @@ Try changing how fast the snake moves by using a bigger or smaller number in `x 
 ### Debugging
 
 If the snake doesn’t move:<br />
-- Make sure `x = 0` comes **before** your functions<br />
 - Did you use `global x` inside `draw()`?<br />
 - Are you updating `x` with `x += 2`?
 

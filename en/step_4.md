@@ -5,9 +5,9 @@ Add two more circles behind the snake to make its full body.
 
 <h2 class="c-project-heading--explainer">Slither, slither...</h2>
 
-Let’s give your snake a longer body by adding two more segments behind it.
+Give your snake a longer body by adding two more segments behind it.
 
-We’ll keep using the `x` variable and subtract different amounts to place each circle in the right spot.
+Keep using the `x` variable and subtract different amounts to place each circle in the right spot.
 
 Each one should be a little smaller, and moved further to the left.
 

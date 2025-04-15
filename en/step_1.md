@@ -6,7 +6,7 @@ Draw a green circle in the middle of the screen to make your snake's head.
 <h2 class="c-project-heading--explainer">Hello, snake!</h2>
 
 In this project, you’ll create a slithering animated snake using Python and p5.  
-We’ll start by drawing a green circle for the snake’s head.
+Start by drawing a green circle for the snake’s head.
 
 <div class="c-project-code">
 --- code ---
@@ -46,7 +46,7 @@ run()
 
 ### Tip
 
-Try changing the size of the circle or the colour. What happens if you move it left or right?
+Try changing the size of the circle or the colour.
 
 </div>
 
@@ -56,7 +56,6 @@ Try changing the size of the circle or the colour. What happens if you move it l
 
 If you don’t see anything:<br />
 - Make sure the `circle()` has **three numbers**: x, y, and size<br />
-- Check that `setup()` and `draw()` are spelled correctly<br />
 - Run your code again after saving
 
 </div>
