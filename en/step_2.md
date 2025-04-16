@@ -5,7 +5,7 @@ Draw a second green circle behind the snake’s head to make part of its body.
 
 <h2 class="c-project-heading--explainer">Stretching out</h2>
 
-Let’s add a second circle behind the head. This will start to make the snake look longer.
+Add a second circle behind the head. This will start to make the snake look longer.
 
 You’ll need to:
 - Use another `circle()`
@@ -47,8 +47,7 @@ Try changing the second circle’s position or size to see how it changes the sn
 ### Debugging
 
 If the body doesn’t show up:<br />
-- Did you use the `fill()` before the new `circle()`?<br />
-- Are the numbers different so you can see two circles?<br />
-- Make sure you saved your code and clicked run
+- Are the numbers for the two circles different to each other?<br />
+- Make sure you clicked run
 
 </div>

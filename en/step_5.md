@@ -5,12 +5,12 @@ Use a wobbly offset to make your snake slither side to side.
 
 <h2 class="c-project-heading--explainer">Make it wriggle!</h2>
 
-Let’s make your snake **slither** by adding a smooth up-and-down wiggle to its body.
+Make your snake **slither** by adding a smooth up-and-down wiggle to its body.
 
-We’ll create a new variable called `offset`. This will change a little bit each time your code runs — kind of like a wave that goes up and down slowly.
+Create a new variable called `offset`. This will change a little bit each time your code runs — kind of like a wave that goes up and down slowly.
 
 You’ll use it to move the body segments up and down in a smooth way.  
-We’ll use something called `sin()`, which is part of Python’s math tools.
+You’ll use something called `sin()`, which is part of Python’s math tools.
 
 Don’t worry about how it works — it just gives us a nice smooth curve that we can use for animation.
 
