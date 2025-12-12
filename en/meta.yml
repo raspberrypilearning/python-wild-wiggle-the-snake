@@ -4,7 +4,7 @@ description: Make a colourful snake slither across the screen using variables an
 meta_title: Learn to code with Python Wild | Wiggly Snake
 meta_description: Learn Python with the Raspberry Pi Foundation. Build and animate a wiggly snake with code and creativity.
 version: 1
-listed: false
+listed: true
 copyedit: false
 last_tested: "2025-04-10"
 steps:
