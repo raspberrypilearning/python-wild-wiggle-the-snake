@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add a wiggle</h2>
+
 --- task ---
+
 Use a wobbly offset to make your snake slither side to side.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Make it wriggle!</h2>
@@ -23,6 +26,7 @@ line_numbers: true
 line_number_start: 13
 line_highlights: 18, 21-23
 ---
+
 def draw():
     global x
     background('lightblue')
@@ -36,6 +40,7 @@ def draw():
     circle(x - 90, 200 + offset, 30) # tail
 
     x += 2  # increase x by 2
+
 --- /code ---
 </div>
 

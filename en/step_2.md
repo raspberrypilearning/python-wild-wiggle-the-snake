@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Add a body segment</h2>
+
 --- task ---
+
 Draw a second green circle behind the snake’s head to make part of its body.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Stretching out</h2>
@@ -21,12 +24,14 @@ line_numbers: true
 line_number_start: 13
 line_highlights: 16
 ---
+
 def draw():
     fill('green')
     circle(200, 200, 50)
     circle(165, 200, 40)
 
 run()
+
 --- /code ---
 </div>
 

@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Make the snake longer</h2>
+
 --- task ---
+
 Add two more circles behind the snake to make its full body.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Slither, slither...</h2>
@@ -20,6 +23,7 @@ line_numbers: true
 line_number_start: 13
 line_highlights: 19-20
 ---
+
 def draw():
     global x
     background('lightblue')
@@ -33,6 +37,7 @@ def draw():
 
 
 run()
+
 --- /code ---
 </div>
 
