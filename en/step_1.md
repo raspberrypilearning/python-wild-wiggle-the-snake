@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Draw the snake's head</h2>
+
 --- task ---
+
 Draw a green circle in the middle of the screen to make your snake's head.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">Hello, snake!</h2>
@@ -17,6 +20,7 @@ line_numbers: true
 line_number_start: 1
 line_highlights: 14, 15
 ---
+
 from p5 import *
 from math import sin
 
@@ -35,6 +39,7 @@ def draw():
 
 
 run()
+
 --- /code ---
 </div>
 

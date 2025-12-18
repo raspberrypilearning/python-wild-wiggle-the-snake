@@ -1,6 +1,9 @@
 <h2 class="c-project-heading--task">Make the snake move</h2>
+
 --- task ---
+
 Use a variable to make your snake slither across the screen.
+
 --- /task ---
 
 <h2 class="c-project-heading--explainer">It’s alive!</h2>
@@ -21,6 +24,7 @@ line_numbers: true
 line_number_start: 13
 line_highlights: 15, 17-18, 20
 ---
+
 def draw():
     global x
     background('lightblue')
@@ -29,6 +33,7 @@ def draw():
     circle(x - 35, 200, 40)  # body at x - 35
 
     x += 2  # increase x by 2
+
 --- /code ---
 </div>
 
