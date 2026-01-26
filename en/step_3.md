@@ -22,7 +22,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 13
-line_highlights: 15, 17-18, 20
+line_highlights: 14-15, 17-18, 20
 ---
 
 def draw():
