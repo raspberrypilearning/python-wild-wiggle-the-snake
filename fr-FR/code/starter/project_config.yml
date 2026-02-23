@@ -1,0 +1,4 @@
+name: "Python wild - Le serpent qui se tortille"
+identifier: "python-wild-wiggle-the-snake"
+type: 'python'
+build: true

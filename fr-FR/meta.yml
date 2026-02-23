@@ -1,0 +1,22 @@
+---
+title: "Python wild - Le serpent qui se tortille"
+hero_image: images/banner.png
+description: Fais ramper un serpent coloré sur l'écran en utilisant des variables et des animations en Python.
+meta_title: Apprendre à coder avec Python Wild | Le serpent qui se tortille
+meta_description: Apprends Python avec la Raspberry Pi Foundation. Crée et anime un serpent qui se tortille grâce au code et à ta créativité.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-10"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external
