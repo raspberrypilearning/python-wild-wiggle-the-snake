@@ -1,0 +1,22 @@
+---
+title: "Python wild - Wiebel de slang"
+hero_image: images/banner.png
+description: Laat een kleurrijke slang over het scherm kronkelen met behulp van variabelen en animatie in Python.
+meta_title: Leer programmeren met Python Wild | Wiebelende slang
+meta_description: Leer Python met de Raspberry Pi Foundation. Bouw en animeer een kronkelende slang met code en creativiteit.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-10"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external
