@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Allonger le serpent</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute deux cercles supplémentaires derrière le serpent pour former son corps entier.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Glisser, glisser...</h2>
 
@@ -39,7 +39,7 @@ circle(x - 90, 200, 30)   # queue
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

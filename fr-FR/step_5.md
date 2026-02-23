@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter un tortillement</h2>
 
-\--- task ---
+--- task ---
 
 Utilise un décalage oblique pour faire glisser ton serpent d'un côté à l'autre.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Gigotte !</h2>
 
@@ -43,7 +43,7 @@ fill('green')
     x += 2  # augmenter x de 2
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

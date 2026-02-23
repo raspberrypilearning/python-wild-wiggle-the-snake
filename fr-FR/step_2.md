@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter un segment de corps</h2>
 
-\--- task ---
+--- task ---
 
 Dessine un deuxième cercle vert derrière la tête du serpent pour représenter une partie de son corps.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Étirer</h2>
 
@@ -33,7 +33,7 @@ circle(165, 200, 40)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

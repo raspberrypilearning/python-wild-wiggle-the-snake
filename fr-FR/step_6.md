@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Donner du style à ton serpent</h2>
 
-\--- task ---
+--- task ---
 
 Ajoute des yeux, des couleurs ou des décorations pour personnaliser ton serpent.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Personnaliser</h2>
 
@@ -43,7 +43,7 @@ line_highlights: 25-27, 29-31
     circle(x + 25, 190, 5)
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -97,3 +97,14 @@ transition: background-color 0.2s;
 Donner ton avis </a>
 
 </div>
+
+***
+Ce projet a été traduit par des bénévoles:
+
+[name]
+
+[name]
+
+[name]
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

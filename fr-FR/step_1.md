@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Dessiner la tête du serpent</h2>
 
-\--- task ---
+--- task ---
 
 Dessine un cercle vert au milieu de l'écran pour faire la tête de ton serpent.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Salut, serpent !</h2>
 
@@ -37,7 +37,7 @@ circle(200, 200, 50)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 
