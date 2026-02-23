@@ -28,7 +28,6 @@ line_number_start: 20
 line_highlights: 25-27, 29-31
 ---
 
-    ```
     circle(x, 200, 50) # kop op x
     circle(x - 35, 200 + afstand, 40) # lichaam 1
     circle(x - 65, 200 - afstand, 35) # lichaam 2
@@ -40,8 +39,8 @@ line_highlights: 25-27, 29-31
     
     fill('black')
     circle(x + 10, 190, 5)
-    cirkel(x + 25, 190, 5)
-    ```
+    circle(x + 25, 190, 5)
+
 
 --- /code ---
 
@@ -82,29 +81,28 @@ Als iets verdwijnt:<br />
 Dit is een bètaproject, wat betekent dat het gloednieuw is en nog niet algemeen beschikbaar. Als je dit project zelf of met je club hebt getest, laat ons dan weten wat je ervan vindt.
 
 <a href="https://form.raspberrypi.org/4874054?tfa_6933=python-wild-wiggle-the-snake" style="
-display: inline-block;
-padding: 10px 20px;
-border: 2px solid black;
-border-radius: 999px;
-font-weight: bold;
-font-size: 16px;
-background-color: white;
-color: black;
-text-align: center;
-text-decoration: none;
-transition: background-color 0.2s;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
 " onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
-Geef feedback </a>
+Geef feedback</a>
 
 </div>
 
 ***
+
 Dit project werd vertaald door vrijwilligers:
 
-[name]
+Robert-Jan Kempenaar
 
-[name]
-
-[name]
+iny van beuningen
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

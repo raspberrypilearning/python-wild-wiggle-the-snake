@@ -28,11 +28,10 @@ line_highlights: 18, 21-23
 ---
 
 def draw():
-global x
-background('lightblue')
-fill('green')
+    global x
+    background('lightblue')
+    fill('green')
 
-    ```
     afstand = sin(x * 0.1) * 10
     
     circle(x, 200, 50) # kop op x
@@ -41,7 +40,6 @@ fill('green')
     circle(x - 90, 200 + afstand, 30) # staart
     
     x += 2 # verhoog x met 2
-    ```
 
 --- /code ---
 
@@ -56,7 +54,6 @@ fill('green')
 ### Tip
 
 Probeer de getallen in `afstand = sin(x * 0.1) * 10` te wijzigen:
-
 - De `0.1` regelt de **snelheid** van de beweging
 - De `10` bepaalt hoe **groot** de beweging is
 
