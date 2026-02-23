@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg een wiebel toe</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik een wiebelende afstand om je slang heen en weer te laten kronkelen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Laat het kronkelen!</h2>
 
@@ -43,7 +43,7 @@ fill('green')
     x += 2 # verhoog x met 2
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

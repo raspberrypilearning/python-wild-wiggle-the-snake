@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Laat de slang bewegen</h2>
 
-\--- task ---
+--- task ---
 
 Gebruik een variabele om je slang over het scherm te laten kronkelen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Het leeft!</h2>
 
@@ -36,7 +36,7 @@ circle(x - 35, 200, 40) # lichaam op x - 35
     x += 2 # verhoog x met 2
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 

@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Geef je slang wat stijl</h2>
 
-\--- task ---
+--- task ---
 
 Voeg ogen, kleuren of versieringen toe om je slang te personaliseren.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Maak het je eigen</h2>
 
@@ -43,7 +43,7 @@ line_highlights: 25-27, 29-31
     cirkel(x + 25, 190, 5)
     ```
 
-\--- /code ---
+--- /code ---
 
 </div>
 
@@ -97,3 +97,14 @@ transition: background-color 0.2s;
 Geef feedback </a>
 
 </div>
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+[name]
+
+[name]
+
+[name]
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

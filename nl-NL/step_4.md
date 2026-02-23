@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Maak de slang langer</h2>
 
-\--- task ---
+--- task ---
 
 Voeg nog twee cirkels achter de slang toe om het volledige lichaam te vormen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Glij, glij...</h2>
 
@@ -39,7 +39,7 @@ circle(x - 90, 200, 30) # staart
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

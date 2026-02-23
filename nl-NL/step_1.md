@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken de kop van de slang</h2>
 
-\--- task ---
+--- task ---
 
 Teken een groene cirkel in het midden van het scherm om de kop van je slang te maken.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Hallo, slang!</h2>
 
@@ -37,7 +37,7 @@ circle(200, 200, 50)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 

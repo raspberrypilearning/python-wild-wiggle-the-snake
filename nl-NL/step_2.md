@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg een lichaamssegment toe</h2>
 
-\--- task ---
+--- task ---
 
 Teken een tweede groene cirkel achter de kop van de slang om een deel van zijn lichaam te vormen.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Uitrekken</h2>
 
@@ -33,7 +33,7 @@ circle(165, 200, 40)
 
 run()
 
-\--- /code ---
+--- /code ---
 
 </div>
 
