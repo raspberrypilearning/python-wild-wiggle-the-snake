@@ -28,20 +28,18 @@ line_highlights: 18, 21-23
 ---
 
 def draw():
-global x
-background('lightblue')
-fill('green')
+    global x
+    background('lightblue')
+    fill('green')
 
-    ```
     offset = sin(x * 0.1) * 10
     
     circle(x, 200, 50)               # tête à x
     circle(x - 35, 200 + offset, 40) # corps 1
     circle(x - 65, 200 - offset, 35) # corps 2
     circle(x - 90, 200 + offset, 30) # queue
-    
+
     x += 2  # augmenter x de 2
-    ```
 
 --- /code ---
 

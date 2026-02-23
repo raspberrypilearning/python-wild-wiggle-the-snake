@@ -26,15 +26,13 @@ line_highlights: 14-15, 17-18, 20
 ---
 
 def draw():
-global x
-background('lightblue')
-fill('green')
-circle(x, 200, 50)  # tête à x
-circle(x - 35, 200, 40)  # coprs à x - 35
+    global x
+    background('lightblue')
+    fill('green')
+    circle(x, 200, 50)  # tête à x
+    circle(x - 35, 200, 40)  # coprs à x - 35
 
-    ```
     x += 2 # augmenter x de 2
-    ```
 
 --- /code ---
 

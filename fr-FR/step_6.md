@@ -28,7 +28,6 @@ line_number_start: 20
 line_highlights: 25-27, 29-31
 ---
 
-    ```
     circle(x, 200, 50)               # tête à x
     circle(x - 35, 200 + offset, 40) # corps 1
     circle(x - 65, 200 - offset, 35) # corps 2
@@ -41,7 +40,6 @@ line_highlights: 25-27, 29-31
     fill('black')
     circle(x + 10, 190, 5)
     circle(x + 25, 190, 5)
-    ```
 
 --- /code ---
 
@@ -82,29 +80,28 @@ Si quelque chose disparaît :<br />
 Il s'agit d'un projet bêta, ce qui signifie qu'il est tout nouveau et pas encore largement disponible. Si tu as testé ce projet individuellement ou avec ton club, n'hésite pas à nous faire part de ton avis.
 
 <a href="https://form.raspberrypi.org/4874054?tfa_6933=python-wild-wiggle-the-snake" style="
-display: inline-block;
-padding: 10px 20px;
-border: 2px solid black;
-border-radius: 999px;
-font-weight: bold;
-font-size: 16px;
-background-color: white;
-color: black;
-text-align: center;
-text-decoration: none;
-transition: background-color 0.2s;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
 " onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
 Donner ton avis </a>
 
 </div>
 
 ***
+
 Ce projet a été traduit par des bénévoles:
 
-[name]
+Jonathan Vannieuwkerke
 
-[name]
-
-[name]
+Michel Arnols
 
 Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).

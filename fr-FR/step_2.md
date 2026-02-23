@@ -27,9 +27,9 @@ line_highlights: 16
 ---
 
 def draw():
-fill('green')
-circle(200, 200, 50)
-circle(165, 200, 40)
+    fill('green')
+    circle(200, 200, 50)
+    circle(165, 200, 40)
 
 run()
 

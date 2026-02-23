@@ -25,17 +25,15 @@ line_highlights: 19-20
 ---
 
 def draw():
-global x
-background('lightblue')
-fill('green')
-circle(x, 200, 50)        # tête à x
-circle(x - 35, 200, 40)   # corps 1
-circle(x - 65, 200, 35)   # corps 2
-circle(x - 90, 200, 30)   # queue
+    global x
+    background('lightblue')
+    fill('green')
+    circle(x, 200, 50)        # tête à x
+    circle(x - 35, 200, 40)   # corps 1
+    circle(x - 65, 200, 35)   # corps 2
+    circle(x - 90, 200, 30)   # queue
 
-    ```
     x += 2 # augmenter x de 2
-    ```
 
 run()
 
