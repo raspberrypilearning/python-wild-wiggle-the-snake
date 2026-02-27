@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Allonger le serpent</h2>
 
---- task ---
+\--- task ---
 
 Ajoute deux cercles supplémentaires derrière le serpent pour former son corps entier.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Glisser, glisser...</h2>
 
@@ -25,19 +25,21 @@ line_highlights: 19-20
 ---
 
 def draw():
-    global x
-    background('lightblue')
-    fill('green')
-    circle(x, 200, 50)        # tête à x
-    circle(x - 35, 200, 40)   # corps 1
-    circle(x - 65, 200, 35)   # corps 2
-    circle(x - 90, 200, 30)   # queue
+global x
+background('lightblue')
+fill('green')
+circle(x, 200, 50)        # tête à x
+circle(x - 35, 200, 40)   # corps 1
+circle(x - 65, 200, 35)   # corps 2
+circle(x - 90, 200, 30)   # queue
 
+    ```
     x += 2 # augmenter x de 2
+    ```
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 

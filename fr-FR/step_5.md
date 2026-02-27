@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Ajouter un tortillement</h2>
 
---- task ---
+\--- task ---
 
 Utilise un décalage oblique pour faire glisser ton serpent d'un côté à l'autre.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Gigotte !</h2>
 
@@ -28,20 +28,22 @@ line_highlights: 18, 21-23
 ---
 
 def draw():
-    global x
-    background('lightblue')
-    fill('green')
+global x
+background('lightblue')
+fill('green')
 
+    ```
     offset = sin(x * 0.1) * 10
     
     circle(x, 200, 50)               # tête à x
     circle(x - 35, 200 + offset, 40) # corps 1
     circle(x - 65, 200 - offset, 35) # corps 2
     circle(x - 90, 200 + offset, 30) # queue
-
+    
     x += 2  # augmenter x de 2
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 

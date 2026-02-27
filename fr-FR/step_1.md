@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Dessiner la tête du serpent</h2>
 
---- task ---
+\--- task ---
 
 Dessine un cercle vert au milieu de l'écran pour faire la tête de ton serpent.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Salut, serpent !</h2>
 
@@ -21,23 +21,23 @@ line_number_start: 1
 line_highlights: 14, 15
 ---
 
-from p5 import *
+from p5 import \*
 from math import sin
 
 x = 0 # position de départ du serpent
 
 def setup():
-    size(400, 400)
-    background('lightblue')
-    no_stroke()
+size(400, 400)
+background('lightblue')
+no_stroke()
 
 def draw():
-    fill('green')
-    circle(200, 200, 50)
+fill('green')
+circle(200, 200, 50)
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 
