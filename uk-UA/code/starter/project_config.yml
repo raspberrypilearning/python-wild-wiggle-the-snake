@@ -1,0 +1,4 @@
+name: "Python wild - Застав змію рухатись"
+identifier: "python-wild-wiggle-the-snake"
+type: 'python'
+build: true
