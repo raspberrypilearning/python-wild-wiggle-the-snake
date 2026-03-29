@@ -1,0 +1,21 @@
+title: "Python wild - Застав змію рухатись"
+hero_image: images/banner.png
+description: Створіть рухому кольорову змію, використовуючи змінні та анімацію в Python.
+meta_title: Навчіться програмувати за допомогою Python Wild | Звивиста змія
+meta_description: Вивчайте Python з Raspberry Pi Foundation. Створіть та анімуйте звивисту змію за допомогою коду та креативності.
+version: 1
+listed: true
+copyedit: false
+last_tested: "2025-04-10"
+steps:
+  - title: step_1
+  - title: step_2
+    completion:
+      - engaged
+  - title: step_3
+  - title: step_4
+  - title: step_5
+  - title: step_6
+    completion:
+      - internal
+      - external
