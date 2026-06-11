@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Додай стилю своїй змії</h2>
 
-\--- task ---
 
 Додай очі, кольори або прикраси, щоб персоналізувати свою змію.
 
-\--- /task ---
 
 <h2 class="c-project-heading--explainer">Персоналізація</h2>
 
@@ -19,7 +17,6 @@
 Ось приклад:
 
 <div class="c-project-code">
---- code ---
 ---
 language: python
 filename: main.py
@@ -41,7 +38,6 @@ line_highlights: 25-27, 29-31
     circle(x + 10, 190, 5)
     circle(x + 25, 190, 5)
 
-\--- /code ---
 
 </div>
 
@@ -95,3 +91,14 @@ transition: background-color 0.2s;
 Залишити відгук </a>
 
 </div>
+
+***
+Цей проєкт переклали волонтери:
+
+[name]
+
+[name]
+
+[name]
+
+Завдяки волонтерам ми надаємо можливість людям у всьому світі навчатися рідною мовою. Ви також можете допомогти нам у цьому — більше інформації про волонтерську програму на [rpf.io/translate](https://rpf.io/translate).

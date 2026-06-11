@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Намалюй голову змії</h2>
 
-\--- task ---
+--- task ---
 
 Посередині екрану намалюй зелений круг, який буде головою змії.
 
-\--- /task ---
+--- /task ---
 
 <h2 class="c-project-heading--explainer">Привіт, змійко!</h2>
 
@@ -26,19 +26,21 @@ from math import sin
 
 x = 0 # початкова позиція змії
 
+
 def setup():
 size(400, 400)
 background('lightblue')
 no_stroke()
 
+
 def draw():
 fill('green')
 circle(200, 200, 50)
 
+
 run()
 
-\--- /code ---
-
+--- /code ---
 </div>
 
 <div class="c-project-output">
@@ -58,7 +60,6 @@ run()
 ### Налагодження
 
 Якщо нічого не відбувається: <br />
-
 - Переконайся, що `circle()` має **три числа**: x, y та розмір<br />
 - Збережи й знову запусти свій код
 
