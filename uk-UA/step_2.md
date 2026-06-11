@@ -26,9 +26,9 @@ line_highlights: 16
 ---
 
 def draw():
-fill('green')
-circle(200, 200, 50)
-circle(165, 200, 40)
+    fill('green')
+    circle(200, 200, 50)
+    circle(165, 200, 40)
 
 run()
 
@@ -36,7 +36,7 @@ run()
 </div>
 
 <div class="c-project-output">
-![Два зелених круги, одне менше та розташоване позаду іншого, на блакитному тлі.](images/step_2.png)
+![Два зелених круги, один менший та розташований позаду іншого, на блакитному тлі.](images/step_2.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

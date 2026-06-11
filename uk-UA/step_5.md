@@ -28,18 +28,18 @@ line_highlights: 18, 21-23
 ---
 
 def draw():
-global x
-background('lightblue')
-fill('green')
+    global x
+    background('lightblue')
+    fill('green')
 
-    offset = sin(x *0.1)* 10
+    offset = sin(x * 0.1) * 10
 
     circle(x, 200, 50)               # голова в точці x
     circle(x - 35, 200 + offset, 40) # тулуб 1
     circle(x - 65, 200 - offset, 35) # тулуб 2
     circle(x - 90, 200 + offset, 30) # хвіст
 
-    x += 2  # збільшити х вдвічі
+    x += 2  # щоби збільшити х вдвічі
 
 --- /code ---
 </div>

@@ -21,21 +21,21 @@ line_number_start: 1
 line_highlights: 14, 15
 ---
 
-from p5 import \*
+from p5 import *
 from math import sin
 
 x = 0 # початкова позиція змії
 
 
 def setup():
-size(400, 400)
-background('lightblue')
-no_stroke()
+    size(400, 400)
+    background('lightblue')
+    no_stroke()
 
 
 def draw():
-fill('green')
-circle(200, 200, 50)
+    fill('green')
+    circle(200, 200, 50)
 
 
 run()

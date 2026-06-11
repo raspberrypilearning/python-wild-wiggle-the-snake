@@ -25,13 +25,13 @@ line_highlights: 19-20
 ---
 
 def draw():
-global x
-background('lightblue')
-fill('green')
-circle(x, 200, 50)        # голова на x
-circle(x - 35, 200, 40)   # круг 1
-circle(x - 65, 200, 35)   # круг 2
-circle(x - 90, 200, 30)   # хвіст
+    global x
+    background('lightblue')
+    fill('green')
+    circle(x, 200, 50)        # голова в точці x
+    circle(x - 35, 200, 40)   # круг 1
+    circle(x - 65, 200, 35)   # круг 2
+    circle(x - 90, 200, 30)   # хвіст
 
     x += 2 # щоби збільшити х вдвічі
 
