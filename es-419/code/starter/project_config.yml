@@ -1,0 +1,4 @@
+name: "Python wild - Wiggle the snake"
+identifier: "python-wild-wiggle-the-snake"
+type: 'python'
+build: true

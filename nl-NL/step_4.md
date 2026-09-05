@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Maak de slang langer</h2>
 
---- task ---
+\--- task ---
 
 Voeg nog twee cirkels achter de slang toe om het volledige lichaam te vormen.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Glij, glij...</h2>
 
@@ -25,20 +25,22 @@ line_highlights: 19-20
 ---
 
 def draw():
-    global x
-    background('lightblue')
-    fill('green')
-    circle(x, 200, 50) # kop op x
-    circle(x - 35, 200, 40) # lichaam 1
-    circle(x - 65, 200, 35) # lichaam 2
-    circle(x - 90, 200, 30) # staart
+global x
+background('lightblue')
+fill('green')
+circle(x, 200, 50) # kop op x
+circle(x - 35, 200, 40) # lichaam 1
+circle(x - 65, 200, 35) # lichaam 2
+circle(x - 90, 200, 30) # staart
 
+    ```
     x += 2 # verhoog x met 2
-
+    ```
 
 run()
 
---- /code ---
+\--- /code ---
+
 </div>
 
 <div class="c-project-output">
