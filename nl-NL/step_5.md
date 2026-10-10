@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Voeg een wiebel toe</h2>
 
---- task ---
+\--- task ---
 
 Gebruik een wiebelende afstand om je slang heen en weer te laten kronkelen.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Laat het kronkelen!</h2>
 
@@ -28,10 +28,11 @@ line_highlights: 18, 21-23
 ---
 
 def draw():
-    global x
-    background('lightblue')
-    fill('green')
+global x
+background('lightblue')
+fill('green')
 
+    ```
     afstand = sin(x * 0.1) * 10
     
     circle(x, 200, 50) # kop op x
@@ -40,8 +41,9 @@ def draw():
     circle(x - 90, 200 + afstand, 30) # staart
     
     x += 2 # verhoog x met 2
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 
@@ -54,6 +56,7 @@ def draw():
 ### Tip
 
 Probeer de getallen in `afstand = sin(x * 0.1) * 10` te wijzigen:
+
 - De `0.1` regelt de **snelheid** van de beweging
 - De `10` bepaalt hoe **groot** de beweging is
 
