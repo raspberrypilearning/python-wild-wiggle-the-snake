@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Додай стилю своїй змії</h2>
 
---- task ---
+\--- task ---
 
 Додай очі, кольори або прикраси, щоб персоналізувати свою змію.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Персоналізація</h2>
 
@@ -41,7 +41,8 @@ line_highlights: 25-27, 29-31
     circle(x + 10, 190, 5)
     circle(x + 25, 190, 5)
 
---- /code ---
+\--- /code ---
+
 </div>
 
 <div class="c-project-output">
@@ -79,25 +80,18 @@ line_highlights: 25-27, 29-31
 Це бета-проєкт, тобто він абсолютно новий і доступний не скрізь. Якщо ви тестували цей проєкт самостійно або зі своїм клубом, поділіться своєю думкою.
 
 <a href="https://form.raspberrypi.org/4874054?tfa_6933=python-wild-wiggle-the-snake" style="
-    display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid black;
-    border-radius: 999px;
-    font-weight: bold;
-    font-size: 16px;
-    background-color: white;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    transition: background-color 0.2s;
+display: inline-block;
+padding: 10px 20px;
+border: 2px solid black;
+border-radius: 999px;
+font-weight: bold;
+font-size: 16px;
+background-color: white;
+color: black;
+text-align: center;
+text-decoration: none;
+transition: background-color 0.2s;
 " onmouseover="this.style.backgroundColor='#f0f0f0';" onmouseout="this.style.backgroundColor='white';">
 Залишити відгук </a>
 
 </div>
-
-***
-Цей проєкт переклали волонтери:
-
-Solomiia Kosmus
-
-Завдяки волонтерам ми надаємо можливість людям у всьому світі навчатися рідною мовою. Ви також можете допомогти нам у цьому — більше інформації про волонтерську програму на [rpf.io/translate](https://rpf.io/translate).
