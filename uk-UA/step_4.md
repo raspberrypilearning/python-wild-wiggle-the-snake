@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Зроби змію довшою</h2>
 
---- task ---
+\--- task ---
 
 Додай іще два круги позаду змії, які завершать її тулуб.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Ковзь, ковзь...</h2>
 
@@ -25,20 +25,20 @@ line_highlights: 19-20
 ---
 
 def draw():
-    global x
-    background('lightblue')
-    fill('green')
-    circle(x, 200, 50)        # голова в точці x
-    circle(x - 35, 200, 40)   # круг 1
-    circle(x - 65, 200, 35)   # круг 2
-    circle(x - 90, 200, 30)   # хвіст
+global x
+background('lightblue')
+fill('green')
+circle(x, 200, 50)        # голова в точці x
+circle(x - 35, 200, 40)   # круг 1
+circle(x - 65, 200, 35)   # круг 2
+circle(x - 90, 200, 30)   # хвіст
 
     x += 2 # щоби збільшити х вдвічі
 
-
 run()
 
---- /code ---
+\--- /code ---
+
 </div>
 
 <div class="c-project-output">
@@ -59,6 +59,7 @@ run()
 ### Налагодження
 
 Якщо деяких частин тіла не видно:<br />
+
 - Перевір, чи кожна функція `circle()` має 3 числа<br />
 - Пошукай помилки у словах або пропущені коми<br />
 - Пам'ятай: кожен наступний відрізок знаходиться все лівіше й лівіше (використовуй `x - ...`)
