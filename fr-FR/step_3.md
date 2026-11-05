@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Faire bouger le serpent</h2>
 
---- task ---
+\--- task ---
 
 Utilise une variable pour faire ramper ton serpent sur l'écran.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Il est vivant !</h2>
 
@@ -26,15 +26,17 @@ line_highlights: 14-15, 17-18, 20
 ---
 
 def draw():
-    global x
-    background('lightblue')
-    fill('green')
-    circle(x, 200, 50)  # tête à x
-    circle(x - 35, 200, 40)  # coprs à x - 35
+global x
+background('lightblue')
+fill('green')
+circle(x, 200, 50)  # tête à x
+circle(x - 35, 200, 40)  # coprs à x - 35
 
+    ```
     x += 2 # augmenter x de 2
+    ```
 
---- /code ---
+\--- /code ---
 
 </div>
 

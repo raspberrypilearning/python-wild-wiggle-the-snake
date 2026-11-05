@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Teken de kop van de slang</h2>
 
---- task ---
+\--- task ---
 
 Teken een groene cirkel in het midden van het scherm om de kop van je slang te maken.
 
---- /task ---
+\--- /task ---
 
 <h2 class="c-project-heading--explainer">Hallo, slang!</h2>
 
@@ -21,23 +21,23 @@ line_number_start: 1
 line_highlights: 14, 15
 ---
 
-from p5 import *
+from p5 import \*
 from math import sin
 
 x = 0 # startpositie van de slang
 
 def setup():
-    size(400, 400)
-    background('lightblue')
-    no_stroke()
+size(400, 400)
+background('lightblue')
+no_stroke()
 
 def draw():
-    fill('green')
-    circle(200, 200, 50)
+fill('green')
+circle(200, 200, 50)
 
 run()
 
---- /code ---
+\--- /code ---
 
 </div>
 
